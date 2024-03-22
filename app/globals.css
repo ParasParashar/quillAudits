@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* navbar */
+.navbarButton{
+color:  #ffffff;
+min-width: 100px;
+background: linear-gradient(266.04deg, #7184FD 20%, #3F7AF0 50%, #4F37EE 100%);
+box-shadow: 0px 13.3875px 20.0812px -4.01625px rgba(0, 0, 0, 0.1), 0px 5.355px 8.0325px -5.355px rgba(0, 0, 0, 0.1);
+font-weight:  500;
+padding: 8px;
+border-radius: 6px;
+@apply md:text-[16px] shadow-lg  hover:shadow-xl  transition-all ease-in duration-300 hover:text-gray-300 hover:opacity-90
+}
+/* hero component */
+.hero_content{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.hero_content_heading{
+/* width: 649px; */
+/* height: 174px; */
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 120%;
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+word-wrap:  break-word;
+/* line-break: anywhere; */
+}
+.hero_content_main_content{
+/* width: 541.83px; */
+/* height: 90px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight:    ;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+word-wrap:  break-word;
+}
+
+
+/* breadcrumb */
+.breadCrub{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.01em;
+color: rgba(255, 255, 255, 0.46);
+}
+
+.breadCrub:hover{
+@apply transition-all ease-in duration-300 text-[#bfcbb2]
+}
+.advantage_content{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #00000A;
+}
+
+.advantage_content_point{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #00000A;
+}
+
+.quilAditsPartner_info{
+height: 75px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #0E3088;
+}
+
+.quilAudit_info{
+  height: 135px;
+left: 390px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #00000A;
+}
+/* info box */
+.info_box{
+box-shadow: 0px 3px 12px 1px rgba(85, 128, 219, 0.21);
+border-radius: 6px;
+}
+/* main content */
+.main_headings{
+width: 551.4px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 42px;
+color: #00000A;
+}
+
+.main_heading_content{
+width: 613.92px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #00000A;
+}
+
+.main_list{
+width: 619.18px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 27px;
+color: #00000A;
+}
+
+.main_list_point{
+width: 498px;
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 800;
+font-size: 24px;
+line-height: 27px;
+color: #00000A;
+}
+
+.footer_image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: url('https://s3-alpha-sig.figma.com/img/9b44/72ec/0a99099ec54b48207331384cdbb986c0?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lN1uEps~mfnyRXE9txlxIUnpW~18P3efv5~tsTSsrFgh7~2wFz0mnQZva8GOXc3lsj7trHQgi0rOTqrz4xIf5-Z54qlcgAcRXQMfOydh4i2MpWaKqkuD-rGHA-iSmfbLvcZe8WXDmymQjOYklb4eleBrsFM~99joiQXz8kc~wcBYY7uQtzkr0gMwRJXa~J-L06uBrCYujU9-90El7ps1d1v6I2wCfJATcafXyzNpBYDSR1smApGwoxILh2~t5jw-cJx3IUyhVxQ8yeZ8XhMJQ3doZf8WG4efnezYLO1JyLCx9kYeZj4UEw4rlLDcKayq948tfWbCuvgV-zvSNsDipQ__') no-repeat center center/cover;
+}
+
+
+
+/* adding responsibility */
+@media (max-width: 768px) {
+  .hero_content_heading {
+    font-size: 36px; 
+    width: 100%;
+  }
+  .hero_content_main_content {
+    font-size: 16px; 
+    width: 100%;
+  }
+  .main_headings{
+    width: 100%;
+    font-size: 30px; 
+
+  }
+  .main_heading_content{
+    width: 100%;
+    font-size: 23px; 
+  }
+  .main_list{
+    width: 100%;
+  }
+  .main_list_point{
+    width: 100%;
+  }
+ 
+}
+@media (max-width:370px){
+  .hero_content_heading {
+      font-size: 28px; 
+    width: 100%;
+
+    }
+    .hero_content_main_content {
+      font-size: 16px; 
+    width: 100%;
+    }
+}
+/* scroll bar css */
+/* main group sidebar */
+.main-scrollbar::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+  height: 5px;
+  border-radius: 2px;
+}
+.main-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+.main-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-400/60 rounded-lg transition-all duration-200  hover:bg-blue-400/70 dark:bg-blue-600 dark:hover:bg-blue-500;
+}
