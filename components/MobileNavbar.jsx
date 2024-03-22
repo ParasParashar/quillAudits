@@ -35,7 +35,7 @@ const MobileNavbar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-white hover:text-gray-300"
+                className="text-white flex gap-1 items-center hover:text-gray-300"
               >
                 {item.name}
                 {Icon && <Icon size={10} />}
