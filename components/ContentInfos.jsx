@@ -9,7 +9,7 @@ const ContentInfos = () => {
       {/* Information */}
       <section className="flex flex-col justify-around  h-full gap-5 w-full    ">
         <h6 className="main_headings">
-          CarpeDiem Pension's Flexible, Blockchain-Enabled Future
+          CarpeDiem Pension&apos;s Flexible, Blockchain-Enabled Future
         </h6>
         <article className="main_heading_content ">
           CarpeDiem Pension redefines retirement planning with a unique approach
@@ -41,8 +41,8 @@ const ContentInfos = () => {
       {/* Information */}
       <section className="flex flex-col justify-around  h-full gap-5 w-full    ">
         <h6 className="main_headings">
-          CarpeDiem Pension's Challenges: Enhancing Security Against Reentrancy,
-          Front-Running, and Infinite Minting
+          CarpeDiem Pension&apos;s Challenges: Enhancing Security Against
+          Reentrancy, Front-Running, and Infinite Minting
         </h6>
         <article className="main_heading_content ">
           CarpeDiem Pension confronts critical security challenges, including
@@ -71,7 +71,7 @@ const ContentInfos = () => {
       {/* Point wise Information */}
       <section className="flex flex-col justify-around  h-full gap-5 w-full    ">
         <h6 className="main_headings">
-          CarpeDiem Pension's Journey Through our Audit Process
+          CarpeDiem Pension&apos;s Journey Through our Audit Process
         </h6>
         <ol className="main_heading_content flex flex-col gap-3  list-decimal">
           <li className="main_list flex flex-col gap-3 list-decimal">
@@ -84,7 +84,7 @@ const ContentInfos = () => {
               </li>
               <li className="main_heading_content">
                 <span className="text-[#253858]">&#8226;</span> Obtained a clear
-                understanding of the CDP platform's functionality, economic
+                understanding of the CDP platform&apos;s functionality, economic
                 model, and intended user interactions.
               </li>
               <li className="main_heading_content">
@@ -208,7 +208,7 @@ const ContentInfos = () => {
       {/* Information */}
       <section className="flex flex-col justify-around  h-full gap-5 w-full    ">
         <h6 className="main_headings">
-          QuillAudits' Strategic Approach to CDP Security Audits
+          QuillAudits&apos; Strategic Approach to CDP Security Audits
         </h6>
         <article className="main_heading_content ">
           We prioritize threat modeling based on platform-specific risks.
@@ -228,8 +228,8 @@ const ContentInfos = () => {
         <article className="main_heading_content ">
           Throughout the audit process, we unearthed a total of 33 issues,
           spanning from minor concerns to critical vulnerabilities. Among these,
-          some of the critical issues identified were: Here's how we remediated
-          them :
+          some of the critical issues identified were: Here&apos;s how we
+          remediated them :
           <ol className="flex flex-col gap-5    ">
             <li>
               <span className="font-bold">1. Unauthorized Claim/Compound:</span>
@@ -286,8 +286,8 @@ const ContentInfos = () => {
         <h6 className="main_headings">Remediation & Impact:</h6>
         <article className="main_heading_content ">
           All identified vulnerabilities were addressed by the CDP team,
-          significantly enhancing the smart contract's security posture. Key
-          improvements include
+          significantly enhancing the smart contract&apos;s security posture.
+          Key improvements include
           <ul className="flex flex-col gap-3 py-3 md:py-5">
             <li className="main_heading_content">
               <span className="text-[#253858]">&#8226;</span> Implementation of

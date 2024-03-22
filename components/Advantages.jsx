@@ -11,7 +11,7 @@ const Advantages = () => {
         </p>
         <p className="advantage_content_point">
           Vulnerabilities could allow users to mint CDP tokens or pension shares
-          indefinitely, disrupting the system's economic balance{" "}
+          indefinitely, disrupting the system&apos;s economic balance{" "}
         </p>
       </div>
       <div className=" grid-rows-3 grid w-full sm:w-full md:w-96 min-h-60 md:h-80 sm:p-5 lg:py-3 ">
