@@ -23,7 +23,7 @@ const footerInfoCSS = {
 
 const Footer = () => {
   return (
-    <footer className=" h-full w-full relative m-0  border-none text-[#ffffff] border   footer_image  p-5 pt-8 lg:px-8 xl:px-16 flex flex-col items-center  gap-9 ">
+    <footer className=" h-full w-full relative m-0  border-none text-[#ffffff] border   footer_image  p-5 pt-8 lg:px-8 xl:px-16 flex flex-col items-center  gap-9 mt-5 ">
       {/* logo */}
       <section className="flex md:mr-auto  items-center w-[234px] md:w-[298px]  h-[46px] gap-1">
         <div className="relative size-16">
